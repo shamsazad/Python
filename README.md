@@ -7,6 +7,8 @@ def msg()
 
   print("I have written code for infinite loop too please try to add something new in it")
   
+  print("Please try to read mapreduce so that we can discuss over it")
+  
 def update():
   
   print ("code for addition and subtraction has been written down")
