@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import time
 def subtract1():
 		print("Enter two numbers")
                 x = int(input('A='))
@@ -17,13 +18,20 @@ def sum1():
 
 
 def main():
-	print("Enter your choice\n1)Addition\t2)Subtraction")
-	a = int(input("choice = "))
+	while True:
+		print("Enter your choice\n1)Addition\t2)Subtraction\t3)Exit")
+		a = int(input("choice = "))
 
-	if a==1:
-		sum1()
+	#while True:
+		if a==1:
+			sum1()
 
-	if a==2:
-		subtract1()
+		elif a==2:
+			subtract1()
+		elif a==3:
+			break
+		else:
+			print("Please Enter Correct Input\n")
+			time.sleep(2)
 
 main()
